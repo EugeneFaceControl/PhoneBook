@@ -113,8 +113,8 @@ public class PhoneBook {
         return persons;
     }
 
-    public DBWorker getDb() {
-        return db;
+    public Person getPerson(String id) {
+        return this.persons.get(id);
     }
 
 //    ---------------------------------------------
